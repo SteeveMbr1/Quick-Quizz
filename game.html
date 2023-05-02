@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/app.css">
+    <link rel="stylesheet" href="/style/game.css">
+    <title>Quick Quiz - Play</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="game" class="justify-centent flex-culumn">
+            <div id="hud">
+                <div class="hud-item">
+                    <span class="hud-prefix">Question <span id="questionCounter"></span></span>
+                    <div class="hud-main-text" id="progressBar">
+                        <div></div>
+                    </div>
+                </div>
+                <div class="hud-item">
+                    <span class="hud-prefix">Score</span>
+                    <h1 class="hud-main-text" id="score">0</h1>
+                </div>
+            </div>
+            <h2 id="question">What is the anser to this question</h2>
+            <div class="choice-container">
+                <span class="choice-prefix">A</span>
+                <span class="choice-text" data-number="1">Choice 1</span>
+            </div>
+            <div class="choice-container">
+                <span class="choice-prefix">B</span>
+                <span class="choice-text" data-number="2">Choice 2</span>
+            </div>
+            <div class="choice-container">
+                <span class="choice-prefix">C</span>
+                <span class="choice-text" data-number="3">Choice 3</span>
+            </div>
+            <div class="choice-container">
+                <span class="choice-prefix">D</span>
+                <span class="choice-text" data-number="4">Choice 4</span>
+            </div>
+        </div>
+    </div>
+    <script src="/script/game.js"></script>
+</body>
+
+</html>

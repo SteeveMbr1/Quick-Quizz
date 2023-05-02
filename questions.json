@@ -1,0 +1,62 @@
+[
+    {
+        "question": "Inside which HTML element do we put the JavaScript ?",
+        "choices": [
+            "<script>",
+            "<javascript>",
+            "<js>",
+            "<scripting>"
+        ],
+        "answer": "<script>"
+    },
+    {
+        "question": "What is the correct syntax for referring to an external script called 'xxx.js' ?",
+        "choices": [
+            "<script href='xxx.js'>",
+            "<script name='xxx.js'>",
+            "<script src='xxx.js'>",
+            "<script file='xxx.js'>"
+        ],
+        "answer": "<script src='xxx.js'>"
+    },
+    {
+        "question": "How do you write 'Hello World' in an alert box ?",
+        "choices": [
+            "msgBox('Hello World');",
+            "alertBox('Hello World');",
+            "msg('Hello World');",
+            "alert('Hello World');"
+        ],
+        "answer": "alert('Hello World');"
+    },
+    {
+        "question": "Cette question n'a pas été écrite. Vrai ou faux ?",
+        "choices": [
+            "Vrai",
+            "Faux",
+            "Peut-être",
+            "Le verre est à moitier plein"
+        ],
+        "answer": "Faux"
+    },
+    {
+        "question": "Are you enjoy this litle game ?",
+        "choices": [
+            "Yes",
+            "Ofcourse",
+            "Absolutely",
+            "Could I have other choices, please ?"
+        ],
+        "answer": "Absolutely"
+    },
+    {
+        "question": "Are you seriously thinking to hire me ?",
+        "choices": [
+            "Yes I do",
+            "Ofcourse",
+            "Absolutely",
+            "I confirm that I have read the terms and I accepted to hiring Steeve"
+        ],
+        "answer": "I confirm that I have read the terms and I accepted to hiring Steeve"
+    }
+]

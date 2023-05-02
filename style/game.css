@@ -1,0 +1,64 @@
+.choice-container {
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1.8rem;
+    border: 0.1rem solid rgba(86, 185, 235, 0.25);
+    background-color: white;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 var(--shadows);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+.correct > .choice-text {
+    background-color: greenyellow;
+}
+
+.incorrect > .choice-text {
+    background-color: red;
+}
+
+.choice-prefix {
+    padding: 1.5rem 2.5rem;
+    background-color: var(--main-color);
+    color: white;
+}
+
+.choice-text {
+    padding: 1.5rem;
+    width: 100%;
+}
+
+/* HUD */
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+.hud-main-text {
+    text-align: center;
+}
+
+#progressBar {
+    width: 20rem;
+    height: 4rem;
+    border: 0.3rem solid var(--main-color);
+    margin-top: 1.5rem;
+}
+
+#progressBar > div {
+    background-color: var(--main-color);
+    height: 100%;
+    width: 0%;
+}
