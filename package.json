@@ -1,0 +1,26 @@
+{
+  "name": "quick-quiz",
+  "version": "1.0.0",
+  "description": "Basic Js project",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "npx http-server -a localhost -p 8080 -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SteeveMbr1/Quick-Quizz.git"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "SteeveMbr1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SteeveMbr1/Quick-Quizz/issues"
+  },
+  "homepage": "https://github.com/SteeveMbr1/Quick-Quizz#readme",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
